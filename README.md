@@ -1,4 +1,4 @@
-# Portal de Proveedores
+# Portal de Proveedores - Only Backend
 
 Portal para atender solicitudes de compra. 
 Con diferentes roles para registrar solicitudes y aprobarlas.
@@ -22,6 +22,11 @@ Then simply apply the migrations:
 You can now run the development server:
 
     $ python manage.py runserver --settings=PortalProviders.settings.dev
+
+## DOC API - URLs
+
+http://localhost:8000/api/schema/swagger-ui/
+http://localhost:8000/api/schema/redoc/
 
 ## Authors
 JEnriquePS - https://github.com/JEnriquePS
