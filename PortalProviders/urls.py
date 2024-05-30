@@ -17,9 +17,30 @@ Including another URLconf
 from django.conf import settings
 from django.contrib import admin
 from django.urls import path, include
+from rest_framework_simplejwt import views as jwt_views
+
+from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView, SpectacularRedocView
+
+from applications.custom_users.api.routers import router as custom_user_router
+from applications.providers.api.routers import router as providers_router
+from applications.orders.api.routers import router as orders_router
+from applications.products.api.routers import router as products_router
 
 urlpatterns = [
     path("admin/", admin.site.urls),
+
+    path('token/', jwt_views.TokenObtainPairView.as_view(), name='token_obtain_pair'),
+    path('token/refresh/', jwt_views.TokenRefreshView.as_view(), name='token_refresh'),
+
+    path('api/users/', include(custom_user_router.urls)),
+    path('api/providers/', include(providers_router.urls)),
+    path('api/orders/', include(orders_router.urls)),
+    path('api/products/', include(products_router.urls)),
+
+    # Documentación Swagger
+    path('api/schema/', SpectacularAPIView.as_view(), name='schema'),
+    path('api/schema/swagger-ui/', SpectacularSwaggerView.as_view(url_name='schema'), name='swagger-ui'),
+    path('api/schema/redoc/', SpectacularRedocView.as_view(url_name='schema'), name='redoc'),
 ]
 
 if settings.DEBUG:
