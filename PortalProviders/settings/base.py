@@ -27,7 +27,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [ ]
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -44,9 +44,15 @@ MAIN_APPS = [
 THIRD_PARTY_APPS = [
     'rest_framework',  # Django Rest Framework for APIs
     'corsheaders',    # Handing CORS headers
+    'drf_spectacular',
 ]
 
-CUSTOM_APPS = []
+CUSTOM_APPS = [
+    'applications.custom_users',
+    'applications.orders',
+    'applications.products',
+    'applications.providers'
+]
 
 INSTALLED_APPS = [
     *MAIN_APPS,
@@ -90,6 +96,8 @@ TEMPLATES = [
     },
 ]
 
+AUTH_USER_MODEL = 'custom_users.CustomUser'
+
 WSGI_APPLICATION = "PortalProviders.wsgi.application"
 
 
@@ -120,9 +128,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 
-LANGUAGE_CODE = "en-us"
+LANGUAGE_CODE = "es-PE"
 
-TIME_ZONE = "UTC"
+TIME_ZONE = "America/Lima"
 
 USE_I18N = True
 
@@ -138,3 +146,10 @@ STATIC_URL = "static/"
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    ),
+    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
+}
