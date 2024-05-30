@@ -1,0 +1,296 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2024-05-30T18:02:44.753Z",
+        "user": "ac38bb45-a4b0-47f1-b6ca-beb17aad783f",
+        "content_type": 6,
+        "object_id": "8a1353ea-b74c-4839-9bb1-d185e99b76ff",
+        "object_repr": "colocador",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2024-05-30T18:02:48.700Z",
+        "user": "ac38bb45-a4b0-47f1-b6ca-beb17aad783f",
+        "content_type": 6,
+        "object_id": "3f2f2e17-85d9-49b6-9283-d616588eb349",
+        "object_repr": "aprobador",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Role\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2024-05-30T18:03:02.863Z",
+        "user": "ac38bb45-a4b0-47f1-b6ca-beb17aad783f",
+        "content_type": 6,
+        "object_id": "8a1353ea-b74c-4839-9bb1-d185e99b76ff",
+        "object_repr": "colocador",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Superuser status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2024-05-30T18:03:08.028Z",
+        "user": "ac38bb45-a4b0-47f1-b6ca-beb17aad783f",
+        "content_type": 6,
+        "object_id": "3f2f2e17-85d9-49b6-9283-d616588eb349",
+        "object_repr": "aprobador",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Superuser status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2024-05-30T21:19:05.774Z",
+        "user": "ac38bb45-a4b0-47f1-b6ca-beb17aad783f",
+        "content_type": 7,
+        "object_id": "cddafd47-15a6-4982-a1fa-5e4f460aa4a8",
+        "object_repr": "Order object (cddafd47-15a6-4982-a1fa-5e4f460aa4a8)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2024-05-30T21:19:05.778Z",
+        "user": "ac38bb45-a4b0-47f1-b6ca-beb17aad783f",
+        "content_type": 7,
+        "object_id": "0cc204c6-4117-4ee9-af96-30e441902d6e",
+        "object_repr": "Order object (0cc204c6-4117-4ee9-af96-30e441902d6e)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2024-05-30T21:23:56.536Z",
+        "user": "ac38bb45-a4b0-47f1-b6ca-beb17aad783f",
+        "content_type": 7,
+        "object_id": "fcfcb259-b214-4504-b33c-f85630cd1770",
+        "object_repr": "Order object (fcfcb259-b214-4504-b33c-f85630cd1770)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2024-05-30T21:23:56.538Z",
+        "user": "ac38bb45-a4b0-47f1-b6ca-beb17aad783f",
+        "content_type": 7,
+        "object_id": "75dc87e4-ed04-4c14-af85-ac9c310d5c21",
+        "object_repr": "Order object (75dc87e4-ed04-4c14-af85-ac9c310d5c21)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2024-05-30T21:23:56.539Z",
+        "user": "ac38bb45-a4b0-47f1-b6ca-beb17aad783f",
+        "content_type": 7,
+        "object_id": "58585526-b774-49cb-96eb-b5f11298f158",
+        "object_repr": "Order object (58585526-b774-49cb-96eb-b5f11298f158)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2024-05-30T21:23:56.540Z",
+        "user": "ac38bb45-a4b0-47f1-b6ca-beb17aad783f",
+        "content_type": 7,
+        "object_id": "0fc1fb7b-234f-446f-95a7-ef544b765a22",
+        "object_repr": "Order object (0fc1fb7b-234f-446f-95a7-ef544b765a22)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2024-05-30T21:23:56.541Z",
+        "user": "ac38bb45-a4b0-47f1-b6ca-beb17aad783f",
+        "content_type": 7,
+        "object_id": "0fad2cc2-28a2-4044-9c0f-d6e11a42cfa4",
+        "object_repr": "Order object (0fad2cc2-28a2-4044-9c0f-d6e11a42cfa4)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2024-05-30T21:23:56.542Z",
+        "user": "ac38bb45-a4b0-47f1-b6ca-beb17aad783f",
+        "content_type": 7,
+        "object_id": "085519e6-00d0-410e-8bdc-ea87183798d8",
+        "object_repr": "Order object (085519e6-00d0-410e-8bdc-ea87183798d8)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "lga56zglncxfwww8vdillqg0tessow4e",
+    "fields": {
+        "session_data": ".eJxVzDsOwjAQRdG9uCaW_-NQ0rOGaMYzJgGUSPlUiL1DpBRQv3veS3W4rX23LTJ3A6uzwuIzUYgNBjJNgGobSgUbErKAyJB9VadfRlgeMu6W7zjeJl2mcZ0H0nuij3XR14nleTnav4Mel_6roxMxBXxoU2U01nKqFINL2aW2hSqJajA2SgWmmDlTdACeCpODKE69P4GxQgg:1sCiyl:bqJokisfU1KCg_0vCP25_GQtSikz5YCeCU60naFcogg",
+        "expire_date": "2024-06-13T16:50:15.252Z"
+    }
+},
+{
+    "model": "custom_users.customuser",
+    "pk": "3f2f2e17-85d9-49b6-9283-d616588eb349",
+    "fields": {
+        "password": "pbkdf2_sha256$720000$qFHy446wG21nRaFYrpbdy7$oU+d1Xiof7EPSRvZJPftZSIEbOLGWpXU67ZTC5pBltM=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "aprobador",
+        "first_name": "",
+        "last_name": "",
+        "email": "aprobador@aprobador.com",
+        "is_staff": true,
+        "date_joined": "2024-05-30T17:00:16Z",
+        "created_at": "2024-05-30T17:00:16.503Z",
+        "updated_at": "2024-05-30T18:03:08.026Z",
+        "is_active": true,
+        "role": "AP",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "custom_users.customuser",
+    "pk": "8a1353ea-b74c-4839-9bb1-d185e99b76ff",
+    "fields": {
+        "password": "pbkdf2_sha256$720000$bkDq0hfFZG0qzCYzoVJCMv$VmRSmrnaooa76pBpWsdyhjklJJ3TUpiCZ8LUu63WiL8=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "colocador",
+        "first_name": "",
+        "last_name": "",
+        "email": "colocador@colocador.com",
+        "is_staff": true,
+        "date_joined": "2024-05-30T16:59:47Z",
+        "created_at": "2024-05-30T16:59:48.067Z",
+        "updated_at": "2024-05-30T18:03:02.860Z",
+        "is_active": true,
+        "role": "CO",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "custom_users.customuser",
+    "pk": "ac38bb45-a4b0-47f1-b6ca-beb17aad783f",
+    "fields": {
+        "password": "pbkdf2_sha256$720000$plFFn4ZoO9tfi552eXWlD4$IxdCXJoCAdBPcyoivxl3qXR/2AitWyFuPkhzYJOipps=",
+        "last_login": "2024-05-30T16:50:15.250Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "admin@admin.com",
+        "is_staff": true,
+        "date_joined": "2024-05-30T16:40:57.849Z",
+        "created_at": "2024-05-30T16:40:58.015Z",
+        "updated_at": "2024-05-30T16:40:58.015Z",
+        "is_active": true,
+        "role": "CO",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "orders.order",
+    "pk": "8e67d1ff-f8b2-4323-befd-2ac4bb3faca2",
+    "fields": {
+        "created_at": "2024-05-30T21:24:07.667Z",
+        "updated_at": "2024-05-30T21:55:48.151Z",
+        "is_active": true,
+        "total_price": "634.00",
+        "request_placer": "8a1353ea-b74c-4839-9bb1-d185e99b76ff",
+        "request_approver": null,
+        "approved": true
+    }
+},
+{
+    "model": "products.product",
+    "pk": "4ab10316-717d-4d46-b365-59974b8418f3",
+    "fields": {
+        "created_at": "2024-05-30T21:24:07.669Z",
+        "updated_at": "2024-05-30T21:24:07.669Z",
+        "is_active": true,
+        "order": "8e67d1ff-f8b2-4323-befd-2ac4bb3faca2",
+        "name": "Product 02",
+        "price": "20.00",
+        "quantity": 2,
+        "link": "https://www.amazon.com/product2",
+        "provider": "7971f12d-c817-49b1-ab9e-aba6a10c2b43"
+    }
+},
+{
+    "model": "products.product",
+    "pk": "e2cdea99-30b6-4c01-855e-016c038c7f0f",
+    "fields": {
+        "created_at": "2024-05-30T21:24:07.668Z",
+        "updated_at": "2024-05-30T21:24:07.668Z",
+        "is_active": true,
+        "order": "8e67d1ff-f8b2-4323-befd-2ac4bb3faca2",
+        "name": "Product 01",
+        "price": "54.00",
+        "quantity": 11,
+        "link": "https://www.amazon.com/product1",
+        "provider": "7971f12d-c817-49b1-ab9e-aba6a10c2b43"
+    }
+},
+{
+    "model": "providers.provider",
+    "pk": "7971f12d-c817-49b1-ab9e-aba6a10c2b43",
+    "fields": {
+        "created_at": "2024-05-30T17:57:35.283Z",
+        "updated_at": "2024-05-30T17:57:35.283Z",
+        "is_active": true,
+        "name": "Proveedor 01",
+        "address": "Av. Junio",
+        "contact": "913402123"
+    }
+},
+{
+    "model": "providers.provider",
+    "pk": "8db941ef-777e-415c-b6c5-bb072fcb2c1f",
+    "fields": {
+        "created_at": "2024-05-30T17:58:38.600Z",
+        "updated_at": "2024-05-30T17:58:38.600Z",
+        "is_active": true,
+        "name": "Proveedor 02",
+        "address": "Av. Agosto",
+        "contact": "945603432"
+    }
+}
+]
